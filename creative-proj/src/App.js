@@ -61,6 +61,8 @@ function App() {
 
                 ox = mousePositionRef.current.x;
                 oy = mousePositionRef.current.y;
+
+                console.log (mousePositionRef.current.x + " " + mousePositionRef.current.y);
             }
 
             const mice = collection(db, 'part');
