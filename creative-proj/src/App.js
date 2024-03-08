@@ -72,7 +72,7 @@ function App() {
                 data.push(doc.data());
             });
             setDocsData(data);
-        }, 1000);
+        }, 4000);
 
         return () => clearInterval(interval);
     }, []);
